@@ -19,36 +19,10 @@ console.assert(hasBeefyCrunch(['Big Mac', 'Fries']) === false);
  */
 
 // ES6
-// var expES6 = Math.pow(7, 2);
+var expES6 = Math.pow(7, 2);
 
 // ES2016
 const exp = 7 ** 2;
 
-console.assert(exp === 49);
+console.assert(expES6 === exp);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const exp = 7 ** 2; 
-
-
-// // ES7
-// const hasBeefyCrunch = (items = []) => items.map(item => item.toLowerCase()).includes('beefy crunch burrito');
-//const hasBeefyCrunch = (items = []) => items.map(item => item.toLowerCase()).includes('beefy crunch burrito');
